@@ -11,3 +11,9 @@ async function foo() {
 }
 
 foo();
+
+wait(1000).then(()=>{
+	console.log('after 1s');
+}).then(()=>wait(1000)).then(()=>{
+	console.log('another 1s');
+});
