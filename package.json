@@ -1,0 +1,25 @@
+{
+  "name": "pwait",
+  "version": "1.0.0",
+  "description": "Promise based setTimeout with nothing to do",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "engines" : { "node" : ">=7.6.0" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longbill/pwait.git"
+  },
+  "keywords": [
+    "await",
+    "setTimeout",
+    "wait"
+  ],
+  "author": "Chunlong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/longbill/pwait/issues"
+  },
+  "homepage": "https://github.com/longbill/pwait#readme"
+}

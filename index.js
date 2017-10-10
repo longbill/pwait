@@ -1,0 +1,1 @@
+module.exports = ms => new Promise(done => setTimeout(done, ms))
